@@ -1,0 +1,12 @@
+Package: r_github_actions_boilerplate
+Title: This is Not a package it is a github actions boilerplate. 
+Version: 0.0.0.9000
+Authors@R: 
+    person("Michael", "Schmidt", , "mschmidty@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package runs a Github Action on Github that sets up R and downloads packages dependencies and produces a plot.
+License: `use_mit_license()`
+Encoding: UTF-8
+Imports: 
+    dplyr,
+    ggplot2

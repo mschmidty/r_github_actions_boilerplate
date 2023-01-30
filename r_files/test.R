@@ -5,4 +5,4 @@ gg<-iris%>%
       geom_boxplot()+ 
       geom_jitter()
 
-ggsave("output/test.jpg", plot=gg, width=2000, height=1200, units="px")
+ggsave("r_files/output/test2.jpg", plot=gg, width=2000, height=1200, units="px")
