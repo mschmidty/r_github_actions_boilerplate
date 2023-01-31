@@ -7,3 +7,5 @@ This repo is a boilerplate Github Actions Repo that:
 * and then commits and pushes those newly created items to the master branch. 
 
 The action is triggered every time something is pushed to the master branch and can also be run on a schedule if the cron scheduler is uncommented. 
+
+For more things you can do with Github Actions and R checkout the [r-lib/actions Github repo](https://github.com/r-lib/actions)
