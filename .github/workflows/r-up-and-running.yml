@@ -3,7 +3,7 @@ run-name: Installing R
 on:
   push:
     branches:
-        - master
+        - main
   # schedule:
   #   - cron: '0 5 * * *'
 jobs:
