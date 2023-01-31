@@ -1,6 +1,11 @@
 name: Get R running
 run-name: Installing R
-on: [push]
+on:
+  push:
+    branches:
+        - master
+  # schedule:
+  #   - cron: '0 5 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
